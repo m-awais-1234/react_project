@@ -4,7 +4,7 @@ import React, { useState } from "react";
 // import axios from "axios";
 // import { useEffect } from "react";
 //  import "./components/Data.css";
-// import Task1 from "./components/task1";
+import Task1 from "./components/task1";
 import Navbar from "./components/Navbar";
 import {Routing} from "./components/Routing";
 import Task1 from "./components/task1";
@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       {/* <Task2/> */}
-      {/* <Task1/> */}
+      <Task1/>
         <Navbar />
         <Routing/>
 
